@@ -1,0 +1,25 @@
+.search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: 15px auto 30px;	
+	max-width: 490px;
+	width: 100%;
+	min-width: 290px;
+	height: 40px;
+	border-radius: 15px;
+	outline: none;
+	border: 3px solid var(--decor-color);
+	box-shadow: 0 0 5px 3px var(--black);
+	&__input {
+		padding: 0 15px;
+		width: inherit;
+		height: 100%;
+		border-radius: 12px;
+		outline: none;
+		border: none;
+	}
+	&:focus-within {
+		border: 3px solid var(--black);
+	}
+}

@@ -1,0 +1,8 @@
+.main {
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 290px);
+		gap: 20px;
+		justify-content: center;
+	}
+}
